@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+}
+header{
+    background-color: #73b4ff;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 8px;
+}
+
+.logo h3{
+    cursor: pointer;
+}
+
+.logo h3:hover{
+    opacity: 0.7;
+}
+
+.info-header{
+    color: white;
+    display: flex;
+}
+
+.icons-header{
+    margin-top: 8px;
+}
+
+.icons-header svg{
+    cursor: pointer;
+}
+
+.icons-header svg:hover{
+    opacity: 0.7;
+}
+
+.info-header img{
+    width:40px;
+    height: 40px;
+    margin-left: 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.info-header svg{
+    margin: 0 10px;
+
+}
+.icons-header{
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.sidebar{
+    width: 15%;
+    background-color: white;
+    height: 100%;
+}
+
+.sidebar a.sidebar-active{
+    border-left: 5px solid #73b4ff;
+    background-color: rgba(202, 202, 202, 0.4);
+    color: #444;
+    font-weight: bold;
+}
+
+.sidebar a.sidebar-active>svg{
+    color: #444;
+}
+.sidebar h3{
+    color: #333;
+    font-size: 20px;
+    margin:10px;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #444;
+}
+
+.sidebar a:hover{
+    border-left: 5px solid #73b4ff;
+    background-color: rgba(202, 202, 202, 0.4);
+    color: #444;
+    font-weight: bold;
+}
+
+.sidebar a > svg{
+    color: #444;
+}
+.content{
+    width: 85%;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+.titulo-secao{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.titulo-secao h2{
+    font-size: 19px;
+}
+.titulo-secao p{
+    font-size: 14px;
+}
+.titulo-secao svg{
+    color: #73b4ff;
+}
